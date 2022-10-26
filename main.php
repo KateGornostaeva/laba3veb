@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <title>Лабораторная работа 3</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">  <!--подключение стилей css -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--подключение шрифтов -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet"> 
-</head>
-
-<body>
-    <header>
-        <p><div id = "catalog_cat"><a href = "main.html">КАТАЛОГ ПОРОД КОШЕК</a></div>
-        <div id = "main_search">Главная
-        Поиск
-        <a href = "login.html">Войти</a></div></p>
-    </header>
-
+<div class="site_page_main">
     <div class = "main">
-            <h1>Бенгальская кошка</h1>
+        <h1>Бенгальская кошка</h1>
         <img class = "img_cat" 
             src="img/cat.jpg"
             title="Бенгальская кошка"
@@ -38,6 +20,7 @@
                 </td>
                 <td>Мало проблем со здоровьем</td> 
             </tr>
+
             <tr>
                 <td>
                     <img class = "img_table"
@@ -47,10 +30,9 @@
                         width="70"
                     >
                 </td>
-                <td>
-                    Легко ухаживать
-                </td>
+                <td>Легко ухаживать</td>
             </tr>
+
             <tr>
                 <td>
                     <img class = "img_table"
@@ -138,15 +120,7 @@
             придётся отдать в среднем 40 000 рублей. Выбирая котёнка "шоу-класса" (полное соответствие стандарту), нужно рассчитывать на 
             сумму от 40 000 до 50 000 рублей, а если Вы покупаете питомца для разведения, то его стоимость может доходить и до 80 000 рублей. 
         </p>
-
     </div>
-    
-    <footer>
-        <p>Контактная информация</p>
-        <p>Горностаева Екатерина 211-362</p>
-        <p>Почта: kate.gornostaeva@inbox.ru </p>
-        <p><a href="feedback.html">Обратная связь</a></p>
-    </footer>
-</body>
+</div>
 
 

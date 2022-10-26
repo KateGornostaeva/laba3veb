@@ -16,6 +16,6 @@ if($os == 0){
 }
 ?>
 
-<?php require("components/header.php")?>
-<?php require("components/main.php")?>
-<?php require("components/footer.php")?>
+<?php require("header.php")?>
+<?php require("main.php")?>
+<?php require("footer.php")?>

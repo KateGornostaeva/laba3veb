@@ -7,6 +7,6 @@ $time = date("G:i:s");
 ?>
 
 
-<?php require("components/header.php")?>
-<?php require("components/login.php")?>
-<?php require("components/footer.php")?>
+<?php require("header.php")?>
+<?php require("login.php")?>
+<?php require("footer.php")?>

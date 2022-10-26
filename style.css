@@ -13,7 +13,7 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    text-align:justify; /*выравнивание текста*/
 }
 
 .main{
@@ -22,6 +22,26 @@ body{
     margin-right: auto;
     text-align:justify; /*выравнивание текста*/
 }
+
+form{
+    background-color: #b6dbe7;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 3px;
+    text-align:center;
+}
+
+/*
+footer{
+    background-color: #88b6c5;
+    font-size: 18px;
+    position: fixed; /* Фиксированное положение *
+    left: 0; bottom: 0; /* Левый нижний угол *
+    padding-left: 10px; /* Поля вокруг текста *
+    width: 100%}
+*/
 
 footer{
     background-color: #88b6c5;
@@ -32,6 +52,7 @@ footer{
     width: 100%
     
 }
+
 
 h1, h2, h3, p, td{
     color: #3e2d26;
@@ -48,6 +69,13 @@ h2 {
 h3{
     font-size: 20px;
 }
+
+/*
+a{
+    text-decoration: none;
+    color: #000000;
+}
+*/
 
 .img_table{
     border-radius: 50%; /*закругление углов картинки*/
@@ -72,7 +100,7 @@ td, th {
 
 #catalog_cat{
     font-size: 40px;
-    color: #000000;
+    color: #000;
 }
 
 #main_search{

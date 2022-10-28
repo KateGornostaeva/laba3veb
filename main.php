@@ -1,12 +1,8 @@
 <div class="site_page_main">
     <div class = "main">
         <h1>Бенгальская кошка</h1>
-        <img class = "img_cat" 
-            src="img/cat.jpg"
-            title="Бенгальская кошка"
-            alt="Бенгальская кошка сидит на кровати"
-            width="300"
-        >
+        
+        <?= '<img src = "./img/', $img1, '.jpg" class = "img_cat"  alt="Бенгальская кошка сидит на кровати" width="300"/>'?>
         
         <table>
             <tr>
